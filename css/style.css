@@ -5,13 +5,13 @@ ul  {
     margin: 0;
 }
 
+li {
+    display: inline-block;
+}
 /* a Reset */
 a {
+    display: inline-block;
     text-decoration: none;
-    color: inherit;
-}
-
-a:hover {
     color: inherit;
 }
 
@@ -25,5 +25,106 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* header:
-font-family: Helvetica, arial, sans-serif; */
+
+/* Common  */
+.ms_btn-black {
+    background-color: black;
+    border-color: black;
+    color: white;
+}
+/* ----------------------------  */
+
+
+/* Header  */
+header {
+    position: fixed;
+    width: 100%;
+    font-family: Helvetica, arial, sans-serif;
+    background-color: white;
+}
+
+/* Top  */
+.header-top {
+    height: 50px;
+    background-color:black;
+    text-align: right;
+    padding: 10px 0;
+}
+
+.header-top img {
+    width: 180px;
+    vertical-align: middle;
+}
+
+/* Bottom  */
+.header-bottom {
+    height: 100px;
+    padding-top: 20px;
+}
+
+.header-bottom nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 70px;
+}
+
+.chevron-down {
+    width: 10px;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.chevron-down-hover {
+    display: none;
+}
+
+
+/* Left  */
+.header-bottom nav.nav-l {
+    justify-content: flex-start;
+}
+
+header .ps-logo {
+    width: 70px;
+    margin-right: 20px;
+} 
+
+header .nav-l ul li {
+    margin: 0 10px;
+}
+
+header .nav-l ul {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Right  */
+.header-bottom nav.nav-r {
+    justify-content: flex-end;
+}
+
+.burger-icon {
+    font-size: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 50px;
+    width: 55px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.search-icon {
+    width: 30px;
+    display: inline-block;
+}
+
+.menu-lg > * {
+    margin: 0 10px;
+}
+
+.menu-lg a:first-child {
+    font-size: 18px;
+    font-weight: 500;
+}
