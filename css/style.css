@@ -32,6 +32,24 @@ body {
     border-color: black;
     color: white;
 }
+
+.ms_btn-orange {
+    background-color: #cd3d0f;
+    border-color: #cd3d0f;
+    color: white;
+}
+
+/* Card  */
+.ms_card {
+    color: inherit;
+}
+.ms_card h2 {
+    margin-bottom: 40px;
+}
+
+.ms_card p {
+    margin-bottom: 20px;
+}
 /* ----------------------------  */
 
 
@@ -139,4 +157,52 @@ header .nav-l ul {
 .menu-lg a:first-child {
     font-size: 16px;
     font-weight: 500;
+}
+
+
+/* -----------------------------  */
+
+/* Main  */
+
+main {
+    padding-top: 140px;
+}
+/* Common  */
+
+/* Jumbo  */
+.jumbo {
+    color: white;
+}
+
+.jumbo-lg {
+    padding-top: 300px;
+    padding-bottom: 80px;
+}
+
+.jumbo-img {
+    width: 50%;
+    margin-bottom: 40px;
+}
+
+/* Jumbo #1 */
+main .jumbo:first-child {
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+
+/* Highlighted  */
+
+
+/* ----------------- */
+
+/* Media Query  */
+@media screen and (min-width:992px) {
+    
+    /* Main  */
+    .jumbo-img {
+        width: 100%;
+    }
 }
