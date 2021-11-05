@@ -45,6 +45,11 @@ body {
     color: white;
 }
 
+.ms_btn-gray {
+    color: #2d64e6;
+    background-color: #d9dadc;
+    border-color: #d9dadc;
+}
 
 /* Card  */
 .ms_card {
@@ -202,9 +207,6 @@ main {
 /* Jumbo  */
 .jumbo {
     color: white;
-}
-
-.jumbo-lg {
     padding-bottom: 60px;
 }
 
@@ -231,6 +233,12 @@ main .jumbo:first-child {
     padding-top: 50px;
 }
 
+/* Jumbo #3  */
+.jumbo-ps-plus {
+    background-color: #bebcbb;
+    padding-top: 50px;
+    color: black;
+}
 
 /* Highlighted  */
 .highlighted {
@@ -259,7 +267,7 @@ main .jumbo:first-child {
     color: #727272;
 }
 
-/* Product  */
+/* New Product  */
 .new-product .product-desc,
 .new-product .product-main-img {
     margin-bottom: 40px;
@@ -323,6 +331,12 @@ main .jumbo:first-child {
 .product-2-single {
     margin-bottom: 20px;
 }
+
+/* Ps Plus Jumbo  */
+.jumbo-ps-plus .jumbo-img img {
+    max-width: 350px;
+}
+
 /* ----------------- */
 
 /* Media Query  */
@@ -331,5 +345,20 @@ main .jumbo:first-child {
     /* Main  */
     .jumbo-img {
         width: 100%;
+    }
+}
+
+@media screen and (min-width:768px) {
+    
+    /* Main  */
+    .jumbo-ps-plus .jumbo-img {
+        width: 100%;
+    }
+
+    .jumbo.jumbo-ps-plus {
+        background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
+        background-position: right;
+        background-size: contain;
+        background-repeat: no-repeat;
     }
 }
