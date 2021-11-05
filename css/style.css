@@ -194,6 +194,25 @@ main .jumbo:first-child {
 
 
 /* Highlighted  */
+.highlighted {
+    padding-top: 40px;
+}
+
+.game-container {
+    margin-bottom: 30px;
+    border-radius: 15px;   
+}
+
+.game-container img {
+    border-radius: 15px;
+}
+
+.selected {
+    border: 2px solid blue;
+    padding: 3px;
+}
+
+/* New Product  */
 
 
 /* ----------------- */
