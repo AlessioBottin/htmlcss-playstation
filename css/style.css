@@ -368,6 +368,27 @@ main .jumbo:first-child {
 .jumbo-ps-now .jumbo-img img {
     max-width: 350px;
 }
+
+/* Social  */
+.social {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.social-container{
+    max-width: 600px;
+    margin: auto;
+}
+
+.social h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.social-img {
+    margin-bottom: 30px;
+}
 /* ----------------- */
 
 /* Media Query  */
