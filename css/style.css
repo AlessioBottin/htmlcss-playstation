@@ -309,6 +309,20 @@ main .jumbo:first-child {
     margin-bottom: 10px;
 }
 
+/* Product #2  */
+.product-2 {
+    padding-top: 60px;
+    color: black;
+}
+
+.product-2 p {
+    font-size: 20px;
+    color: #727272;
+}
+
+.product-2-single {
+    margin-bottom: 20px;
+}
 /* ----------------- */
 
 /* Media Query  */
