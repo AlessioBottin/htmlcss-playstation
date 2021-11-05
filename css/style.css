@@ -51,6 +51,12 @@ body {
     border-color: #d9dadc;
 }
 
+.ms_btn-white {
+    color: black;
+    background-color: white;
+    border-color: white;
+}
+
 /* Card  */
 .ms_card {
     color: inherit;
@@ -233,11 +239,18 @@ main .jumbo:first-child {
     padding-top: 50px;
 }
 
-/* Jumbo #3  */
+/* Jumbo #3 (ps plus) */
 .jumbo-ps-plus {
     background-color: #bebcbb;
     padding-top: 50px;
     color: black;
+}
+
+/* Jumbo #4 (ps now) */
+.jumbo-ps-now {
+    background-color: #161c3b;
+    padding-top: 50px;
+    color: white;
 }
 
 /* Highlighted  */
@@ -250,7 +263,7 @@ main .jumbo:first-child {
     padding: 3px;
 }
 
-/* New Product  */
+/*  Product  */
 .new-product {
     padding-top: 80px;
     padding-bottom: 50px;
@@ -337,6 +350,24 @@ main .jumbo:first-child {
     max-width: 350px;
 }
 
+/* Sales  */
+.sales {
+    padding-top: 80px;
+}
+
+.sales p {
+    font-size: 20px;
+    color: #727272;
+}
+
+.sales-item {
+    margin-bottom: 40px;
+}
+
+/* Ps Now Jumbo  */
+.jumbo-ps-now .jumbo-img img {
+    max-width: 350px;
+}
 /* ----------------- */
 
 /* Media Query  */
@@ -357,6 +388,13 @@ main .jumbo:first-child {
 
     .jumbo.jumbo-ps-plus {
         background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
+        background-position: right;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .jumbo.jumbo-ps-now {
+        background-image: url(../img/ps-now-april-featured-image-block.png);
         background-position: right;
         background-size: contain;
         background-repeat: no-repeat;
