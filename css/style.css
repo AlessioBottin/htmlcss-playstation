@@ -67,6 +67,7 @@ header {
     width: 100%;
     font-family: Helvetica, arial, sans-serif;
     background-color: white;
+    z-index: 1;
 }
 
 /* Top  */
@@ -189,6 +190,14 @@ main {
     margin-bottom: 60px;
 }
 
+.game-container {
+    margin-bottom: 30px;
+    border-radius: 15px;   
+}
+
+.game-container img {
+    border-radius: 15px;
+}
 
 /* Jumbo  */
 .jumbo {
@@ -196,7 +205,6 @@ main {
 }
 
 .jumbo-lg {
-    padding-top: 300px;
     padding-bottom: 60px;
 }
 
@@ -211,21 +219,22 @@ main .jumbo:first-child {
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: center;
+    padding-top: 300px;
+}
+
+/* Jumbo #2 */
+.jumbo2 {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    padding-top: 50px;
 }
 
 
 /* Highlighted  */
 .highlighted {
     padding-top: 40px;
-}
-
-.game-container {
-    margin-bottom: 30px;
-    border-radius: 15px;   
-}
-
-.game-container img {
-    border-radius: 15px;
 }
 
 .highlighted .selected {
@@ -236,6 +245,7 @@ main .jumbo:first-child {
 /* New Product  */
 .new-product {
     padding-top: 80px;
+    padding-bottom: 50px;
     color: black;
 }
 
@@ -255,13 +265,14 @@ main .jumbo:first-child {
     margin-bottom: 40px;
 }
 
-/* Product secondary img  */
+/* Product secondary  */
 .new-product .selected {
     border-bottom: 2px solid #0072ce;
 }
 
-.product-secondary-img {
+.product-secondary {
     position: relative;
+    height: 100%;
 }
 
 .ms_overlay::after {
@@ -273,6 +284,31 @@ main .jumbo:first-child {
     top: 0;
     left: 0;
 }
+
+.product-secondary-desc {
+    text-align: center;
+}
+
+/* New releases  */
+.new-releases {
+    background-color: #1f1f1f;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.new-releases h2 {
+    font-size: 40px;
+}
+
+.new-releases p {
+    font-size: 25px;
+}
+
+.new-releases .game-container img {
+    margin-bottom: 10px;
+}
+
 /* ----------------- */
 
 /* Media Query  */
