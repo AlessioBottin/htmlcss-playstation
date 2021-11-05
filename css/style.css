@@ -58,8 +58,8 @@ header {
 
 /* Bottom  */
 .header-bottom {
-    height: 100px;
-    padding-top: 20px;
+    height: 90px;
+    padding-top: 15px;
 }
 
 .header-bottom nav {
@@ -88,21 +88,26 @@ header {
 
 header .ps-logo {
     width: 70px;
-    margin-right: 20px;
+    margin-right: 10px;
 } 
 
 header .nav-l ul li {
-    margin: 0 10px;
+    margin: 0 5px;
 }
 
 header .nav-l ul {
-    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 16px;
     font-weight: 500;
+    line-height: 70px;
 }
 
 /* Right  */
 .header-bottom nav.nav-r {
     justify-content: flex-end;
+    line-height: 70px;
 }
 
 .burger-icon {
@@ -121,10 +126,17 @@ header .nav-l ul {
 }
 
 .menu-lg > * {
-    margin: 0 10px;
+    margin: 0 5px;
+}
+
+.menu-lg {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .menu-lg a:first-child {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
 }
