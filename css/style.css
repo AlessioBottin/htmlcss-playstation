@@ -39,16 +39,24 @@ body {
     color: white;
 }
 
+.ms_btn-blue {
+    background-color: #2d64e6;
+    border-color: #2d64e6;
+    color: white;
+}
+
+
 /* Card  */
 .ms_card {
     color: inherit;
 }
 .ms_card h2 {
     margin-bottom: 40px;
+    font-size: 40px;
 }
 
 .ms_card p {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 /* ----------------------------  */
 
@@ -168,6 +176,19 @@ main {
     padding-top: 140px;
 }
 /* Common  */
+.section-heading {
+    text-align: center;
+}
+
+.section-heading h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.section-heading p {
+    margin-bottom: 60px;
+}
+
 
 /* Jumbo  */
 .jumbo {
@@ -176,7 +197,7 @@ main {
 
 .jumbo-lg {
     padding-top: 300px;
-    padding-bottom: 80px;
+    padding-bottom: 60px;
 }
 
 .jumbo-img {
@@ -207,14 +228,51 @@ main .jumbo:first-child {
     border-radius: 15px;
 }
 
-.selected {
-    border: 2px solid blue;
+.highlighted .selected {
+    border: 2px solid #0072ce;
     padding: 3px;
 }
 
 /* New Product  */
+.new-product {
+    padding-top: 80px;
+    color: black;
+}
 
+.blue {
+    color: #0072ce;
+    text-transform: uppercase;
+}
 
+.new-product p {
+    font-size: 20px;
+    color: #727272;
+}
+
+/* Product  */
+.new-product .product-desc,
+.new-product .product-main-img {
+    margin-bottom: 40px;
+}
+
+/* Product secondary img  */
+.new-product .selected {
+    border-bottom: 2px solid #0072ce;
+}
+
+.product-secondary-img {
+    position: relative;
+}
+
+.ms_overlay::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 /* ----------------- */
 
 /* Media Query  */
