@@ -163,7 +163,7 @@ header .nav-l ul {
     display: inline-block;
 }
 
-.menu-lg > * {
+.menu-lg ul > * {
     margin: 0 5px;
 }
 
@@ -179,6 +179,19 @@ header .nav-l ul {
     font-weight: 500;
 }
 
+/* Hover effects  */
+header ul li a:hover .chevron-down {
+    display: none;
+}
+
+header ul li a:hover .chevron-down-hover {
+    display: inline-block;
+}
+
+header .ms_btn-black:hover {
+    background-color: darkgray;
+    border-color: darkgray;
+}
 
 /* -----------------------------  */
 
@@ -412,11 +425,10 @@ footer {
 }
 
 .footer-logo img {
-    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
-    max-width: 150px;
+    max-width: 130px;
     margin-bottom: 20px;
+    
 }
-
 
 /* Right col  */
 .footer-links {
@@ -440,6 +452,13 @@ footer {
 .copyright-text a {
     text-decoration: underline;
 }
+
+/* Hover effects  */
+footer a:hover {
+    text-decoration: underline;
+    color: lightgray;
+}
+
 /* -------------------------  */
 
 /* Media Query  */
